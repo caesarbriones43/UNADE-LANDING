@@ -32,7 +32,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   title: {
-    color: '#f88d2a',
+    color: '#011e41',
     fontSize:68,
     letterSpacing: 7,
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
@@ -66,11 +66,12 @@ export default function Suscribe() {
         justify="center"
         align="center"
         direction="column"
+        style={{backgroundColor:'rgba(248, 141, 42, 0.40)'}}
       >
         <Text className={classes.title}>¡Inscríbete!</Text>
         <UnstyledButton
           className={classes.btn}
-          style={{ backgroundColor: '#f88d2a', height: 50, width: 200, borderRadius: 20 }}
+          style={{ backgroundColor: '#011e41', height: 50, width: 200, borderRadius: 20 }}
           onClick={(e: any) => {
             e.preventDefault();
             e.stopPropagation();

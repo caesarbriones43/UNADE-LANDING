@@ -73,13 +73,14 @@ function Card({ image, title, category }: CardProps) {
       <Flex
         p={40}
         h={height}
-        bg="rgba(0, 0, 0, .3)"
+        bg='rgba( 1, 30, 65, 0.50)'
         gap="md"
         justify="center"
         align="center"
         direction="column"
         wrap="wrap"
-      ></Flex>
+      >
+      </Flex>
     </BackgroundImage>
   );
 }
