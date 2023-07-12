@@ -244,9 +244,11 @@ export function EducativeOfferCard() {
           fullWidth
           className={classes.informationButton}
           onClick={(e: any) => {
-            e.preventDefault();
-            e.stopPropagation();
-            handleClick(article.link);
+            // e.preventDefault();
+            // e.stopPropagation();
+            // handleClick(article.link);
+            handleClick('https://api.whatsapp.com/send/?phone=4491127528&text&type=phone_number&app_absent=0');
+
           }}
         >
           <Text c="#ffffff">Conocer más</Text>

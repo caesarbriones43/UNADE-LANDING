@@ -216,7 +216,9 @@ export function MainHeader() {
       onClick={(e: any) => {
         e.preventDefault();
         e.stopPropagation();
-        handleClick(item.link);
+        // handleClick(item.link);
+        handleClick('https://api.whatsapp.com/send/?phone=4491127528&text&type=phone_number&app_absent=0/');
+
       }}
     >
       <Group noWrap align="flex-start">
