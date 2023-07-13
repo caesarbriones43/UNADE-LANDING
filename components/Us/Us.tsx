@@ -100,9 +100,8 @@ export function Us() {
               </div>
             </div>
             <Image
-              src={
-                'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684212957/nosotros_nvhrac.jpg'
-              }
+              src={'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689285719/Nosotros_qyv40q.jpg'
+               }
               className={classes.image}
             />
           </div>

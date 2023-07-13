@@ -110,11 +110,7 @@ const useStyles = createStyles((theme) => ({
 }));
 
 const mockdata = [
-  {
-    icon: IconSchool,
-    title: 'Licenciatura en Pedagogía',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Lic.+en+Pedagogi%CC%81a.pdf',
-  },
+
   {
     icon: IconSchool,
 

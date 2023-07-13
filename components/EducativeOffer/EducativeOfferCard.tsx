@@ -24,7 +24,7 @@ import line from './line.svg';
 const mockdata = [
   {
     image:
-      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684212688/Maestri%CC%81a_en_Competencias_Docentes_para_la_Transformacio%CC%81n_Digital_BUENA_hxq6g3.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286163/1._Lic._en_Ingenier_a_industrial_y_log_stica_hgt9xo.jpg',
     date: 'RVOE SEP: 20231731',
     rvoes: 'RVOE SEP SEP: 20231731',
     title: 'Licenciatura en Ingeniería Industrial y Logística',
@@ -32,7 +32,7 @@ const mockdata = [
   },
   {
     image:
-      'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Mtria+en+Estadi%CC%81stica.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286164/2._Licenciatura_en_Ingenier_a_en_Ciencia_de_Datos_e_Inteligencia_Artificial_zzxznk.jpg',
     date: 'RVOE SEP: 20231732',
     title: 'Licenciatura en Ingeniería en Ciencia de Datos e Inteligencia Artificial',
     rvoes: 'RVOE SEP SEP: 20231732',
@@ -40,7 +40,7 @@ const mockdata = [
   },
   {
     image:
-      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684212543/Competencias_Docentes_para_la_Transformacio%CC%81n_Digital_buena_ngoolh.jpg  ',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286168/3._Licenciatura_en_Mercadotecnia_Digital_d5vfhw.jpg',
     date: 'RVOE SEP: 20231733',
     rvoes: 'RVOE SEP SEP: 20231733',
     title: 'Licenciatura en Mercadotecnia Digital',
@@ -48,7 +48,7 @@ const mockdata = [
   },
   {
     image:
-      'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Mtria+en+Direccio%CC%81n+e+innovacio%CC%81n+en+los+SS.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286165/4._Licenciatura_en_Administraci%E0%B8%82n_y_Direcci%E0%B8%82n_de_Empresas_udqher.jpg',
     date: 'RVOE SEP: 20231734',
     rvoes: 'RVOE SEP SEP: 20231734',
     title: 'Licenciatura en Administración y Dirección de Empresas',
@@ -56,7 +56,7 @@ const mockdata = [
   },
   {
     image:
-      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684212785/pedagogia_0003_Capa_8_m0g6tq.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286162/5._Lic._en_Derecho_nawzdd.jpg',
     date: 'RVOE SEP: 20231735',
     rvoes: 'RVOE SEP SEP: 20231735',
     title: 'Licenciatura en Derecho',
@@ -64,7 +64,7 @@ const mockdata = [
   },
   {
     image:
-      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684212363/Doctorado_en_Tecnologi%CC%81as_de_la_Transformacio%CC%81n_Digital_buena_yfofgx.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286162/6._Licenciatura_en_Ciencias_de_la_Educaci%E0%B8%82n_zrpraj.jpg',
     date: 'RVOE SEP: 20231736',
     rvoes: 'RVOE SEP SEP: 20231736',
     title: 'Licenciatura en Ciencias de la Educación',
@@ -72,7 +72,7 @@ const mockdata = [
   },
   {
     image:
-      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684211817/Tecnologi%CC%81as_de_la_Transformacio%CC%81n_Digital_BUENA_nmebjq.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286162/7._Doctorado_en_Educaci%E0%B8%82n_Altas_Capacidades_y_Tecnolog%E0%B8%81as_Disruptivas_vlmijt.jpg',
     date: 'RVOE SEP: 20231737',
     rvoes: 'RVOE SEP SEP: 20231737',
     title: 'Doctorado en Educación, Altas Capacidades y Tecnologías Disruptivas',
@@ -80,7 +80,7 @@ const mockdata = [
   },
   {
     image:
-      'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Doc.+en+Derecho.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286162/8._Maestr%E0%B8%81a_en_Innovaci%E0%B8%82n_Educativa_y_Altas_Capacidades_dxrgr9.jpg',
     date: 'RVOE SEP: 20231738',
     rvoes: 'RVOE SEP SEP: 20231738',
     title: 'Maestría en Innovación Educativa y Altas Capacidades',
@@ -88,7 +88,7 @@ const mockdata = [
   },
   {
     image:
-      'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Esp.+en+Bioe%CC%81tica.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286163/9._Maestr%E0%B8%81a_en_Negocios_Digitales_e_Innovaci%E0%B8%82n_zbnd36.jpg',
     date: 'RVOE SEP: 20231739',
     rvoes: 'RVOE SEP SEP: 20231739',
     title: 'Maestría en Negocios Digitales e Innovación',
@@ -96,7 +96,7 @@ const mockdata = [
   },
   {
     image:
-      'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Esp.+en+Bioe%CC%81tica.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286162/10._Maestr%E0%B8%81a_en_Direcci%E0%B8%82n_y_Administraci%E0%B8%82n_de_Empresas_whqva6.jpg',
     date: 'RVOE SEP: 20231740',
     rvoes: 'RVOE SEP SEP: 20231740',
     title: 'Maestría en Dirección y Administración de Empresas',
@@ -104,7 +104,7 @@ const mockdata = [
   },
   {
     image:
-      'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Esp.+en+Bioe%CC%81tica.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286164/11._Maestr_a_en_Calidad_y_Log_stica_rshgj9.jpg',
     date: 'RVOE SEP: 20231741',
     rvoes: 'RVOE SEP SEP: 20231741',
     title: 'Maestría en Calidad y Logística',
@@ -112,7 +112,7 @@ const mockdata = [
   },
   {
     image:
-      'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Esp.+en+Bioe%CC%81tica.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286163/12._Maestr%E0%B8%81a_en_Administraci%E0%B8%82n_de_Enfermer%E0%B8%81a_pkzcex.jpg',
     date: 'RVOE SEP: 20231742',
     rvoes: 'RVOE SEP SEP: 20231742',
     title: 'Maestría en Administración de Enfermería',
@@ -120,7 +120,7 @@ const mockdata = [
   },
   {
     image:
-      'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Esp.+en+Bioe%CC%81tica.jpg',
+      'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286163/13._Maestr_a_en_%DA%AFtica_y_Derechos_Humanos_znctsj.jpg',
     date: 'RVOE SEP: 20231743',
     rvoes: 'RVOE SEP SEP: 20231743',
     title: 'Maestría en Ética y Derechos Humanos',

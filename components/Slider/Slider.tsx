@@ -87,50 +87,21 @@ function Card({ image, title, category }: CardProps) {
 
 const data = [
   {
-    image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684212543/Competencias_Docentes_para_la_Transformacio%CC%81n_Digital_buena_ngoolh.jpg',
+    image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286167/Carrusel1_apkufx.jpg',
     title: 'Maestría en Competencias Docentes para la Transformación Digital',
     category: 'La Universidad de los profesionales digitales',
   },
   {
-    image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684212785/pedagogia_0003_Capa_8_m0g6tq.jpg',
+    image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286167/Carrusel3_ozm0wt.jpg',
     category: 'La Universidad de los profesionales digitales',
     title: 'Doctorado en Dirección e Innovación Digital en los Sistemas de Salud',
   },
   {
-    image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684211817/Tecnologi%CC%81as_de_la_Transformacio%CC%81n_Digital_BUENA_nmebjq.jpg',
+    image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286165/Carrusel2_edsmk8.jpg',
     category: 'La Universidad de los profesionales digitales',
     title: 'Doctorado en Tecnologías de la Transformación Digital',
   },
-  {
-    image:
-    'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684212688/Maestri%CC%81a_en_Competencias_Docentes_para_la_Transformacio%CC%81n_Digital_BUENA_hxq6g3.jpg',
-    category: 'La Universidad de los profesionales digitales',
-    title: 'Licenciatura en Pedagogía',
-  },
-  {
-    image:
-    'https://res.cloudinary.com/dslc2vjcz/image/upload/v1684212363/Doctorado_en_Tecnologi%CC%81as_de_la_Transformacio%CC%81n_Digital_buena_yfofgx.jpg',
-    category: 'La Universidad de los profesionales digitales',
-    title: 'Doctorado en Competencias Docentes para la Transformación Digital',
-  },
-  {
-    image:
-    'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Mtria+en+Estadi%CC%81stica.jpg',
-    category: 'La Universidad de los profesionales digitales',
-    title: 'Maestría en Estadística para Ciencias Sociales',
-  },
-  {
-    image:
-    'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Esp.+en+Bioe%CC%81tica.jpg',
-    category: 'La Universidad de los profesionales digitales',
-    title: 'Especialidad en Bioética',
-  },
-  {
-    image:
-    'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/covers/Mtria+en+Direccio%CC%81n+e+innovacio%CC%81n+en+los+SS.jpg',
-    category: 'La Universidad de los profesionales digitales',
-    title: 'Maestría en Dirección e Innovación en los Sistemas de Salud',
-  },
+
 ];
 
 export function Slider() {

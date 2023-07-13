@@ -239,7 +239,7 @@ export function MainFooter({ data }: MainFooterProps) {
             <ActionIcon
               size="lg"
               onClick={() => {
-                handleClick('https://www.instagram.com/uinternacionalags/');
+                handleClick('https://instagram.com/unadeags?igshid=NGExMmI2YTkyZg==');
               }}
             >
               <IconBrandInstagram size="1.05rem" stroke={1.5} />
@@ -247,7 +247,7 @@ export function MainFooter({ data }: MainFooterProps) {
             <ActionIcon
               size="lg"
               onClick={() => {
-                handleClick('https://www.facebook.com/uinternacionalags/');
+                handleClick('https://www.facebook.com/unadeags?mibextid=ZbWKwL');
               }}
             >
               <IconBrandFacebook size="1.05rem" stroke={1.5} />
