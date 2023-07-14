@@ -13,10 +13,12 @@ import {
   Center,
   Box,
   Flex,
+  UnstyledButton,
 } from '@mantine/core';
 import capa1 from '../../public/images/capa_1.jpg';
 
 import { useViewportSize } from '@mantine/hooks';
+import AnimationContainer from '../AnimationContainer/AnimationContainer';
 
 const useStyles = createStyles((theme) => ({
   card: {
@@ -49,6 +51,12 @@ const useStyles = createStyles((theme) => ({
     fontWeight: 700,
     textTransform: 'uppercase',
   },
+  btn: {
+    '&:hover': {
+      transform: 'scale(1.1)',
+      boxShadow: theme.shadows.md,
+    },
+  },
 }));
 
 interface CardProps {
@@ -69,17 +77,45 @@ function Card({ image, title, category }: CardProps) {
   };
 
   return (
-    <BackgroundImage src={image} radius="sm">
+    <BackgroundImage
+      src={image}
+      style={{
+        minHeight: 'inherit',
+        minWidth: 'inherit',
+        objectFit: 'cover',
+        height: 'inherit',
+        width: 'inherit',
+      }}
+    >
+
       <Flex
         p={40}
         h={height}
-        bg='rgba( 1, 30, 65, 0.50)'
+        bg="rgba( 1, 30, 65, 0.50)"
         gap="md"
         justify="center"
         align="center"
         direction="column"
         wrap="wrap"
       >
+        <Text className={classes.title}>{title}</Text>
+
+        <Text className={classes.category}>{category}</Text>
+        <UnstyledButton
+          className={classes.btn}
+          style={{ backgroundColor: '#011e41', height: 50, width: 200, borderRadius: 20 }}
+          onClick={(e: any) => {
+            e.preventDefault();
+            e.stopPropagation();
+            handleClick('https://api.whatsapp.com/send/?phone=4491127528&text&type=phone_number&app_absent=0');
+          }}
+        >
+        <Center>
+            <Text size="xs" color="white" style={{ fontSize: 16, fontWeight: 'bold' }}>
+              Iniciar Ahora
+            </Text>
+          </Center>
+          </UnstyledButton>
       </Flex>
     </BackgroundImage>
   );
@@ -88,20 +124,19 @@ function Card({ image, title, category }: CardProps) {
 const data = [
   {
     image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286167/Carrusel1_apkufx.jpg',
-    title: 'Maestría en Competencias Docentes para la Transformación Digital',
-    category: 'La Universidad de los profesionales digitales',
+    title: 'Maestría en Dirección y Administración de Empresas',
+    category: 'Fortalece tu liderazgo, impulsa éxito.',
   },
   {
     image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286167/Carrusel3_ozm0wt.jpg',
-    category: 'La Universidad de los profesionales digitales',
+    category: 'Fortalece tu liderazgo, impulsa éxito.',
     title: 'Doctorado en Dirección e Innovación Digital en los Sistemas de Salud',
   },
   {
     image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286165/Carrusel2_edsmk8.jpg',
-    category: 'La Universidad de los profesionales digitales',
-    title: 'Doctorado en Tecnologías de la Transformación Digital',
+    category: 'Fortalece tu liderazgo, impulsa éxito.',
+    title: 'Licenciatura en Ingeniería Industrial y Logística',
   },
-
 ];
 
 export function Slider() {

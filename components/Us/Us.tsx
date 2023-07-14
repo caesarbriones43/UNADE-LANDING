@@ -13,6 +13,8 @@ import {
 } from '@mantine/core';
 import { Values } from './Values';
 
+import { motion } from 'framer-motion';
+
 const useStyles = createStyles((theme) => ({
   wrapper: {
     display: 'flex',
@@ -42,7 +44,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   title: {
-    color: '#011e41',
+    color: '#eba900',
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
     lineHeight: 1,
     marginBottom: theme.spacing.md,
@@ -74,36 +76,50 @@ export function Us() {
   const { classes } = useStyles();
   return (
     <>
-      <div style={{ backgroundColor: '#ccc4a7' }}>
+      <div style={{ backgroundColor: '#011e41' }}>
         <div style={{ padding: 50 }}>
           <Center pb={50}>
-            <Title className={classes.title}>Nosotros</Title>
+            <Title className="titleUnderLine">Nosotros</Title>
           </Center>
-          <div className={classes.wrapper} style={{ backgroundColor: '#ccc4a7' }}>
+          <div className={classes.wrapper} style={{ backgroundColor: '#011e41' }}>
             <div className={classes.body}>
-              <Group position="center"></Group>
-              <Title className={classes.title} align="center">
-                Misión
-              </Title>
-              <Text fw={500} fz="lg" mb={5} align="justify">
+              <Group position="center" pb={15}>
+                <Title className={'titleUnderLineInverse'}>Misión</Title>
+              </Group>
+
+              <Text fw={500} fz="lg" mb={5} align="justify" c="#ffffff">
                 Formar profesionales, líderes y emprendedores competentes y comprometidos con el
                 éxito empresarial, contribuyendo al desarrollo económico y social del País.
               </Text>
               <div style={{ marginTop: 100 }}>
-                <Title className={classes.title} mt={50} align="center">
-                  Visión
-                </Title>
-                <Text fw={500} fz="lg" mb={5} align="justify">
+                <Group position="center" pb={15}>
+                  <Title className={'titleUnderLineInverse'}>Visión</Title>
+                </Group>
+                <Text fw={500} fz="lg" mb={5} align="justify" c="#ffffff">
                   Ser reconocida como una institución que forma líderes y emprendedores, destacando
                   por la excelencia académica y el impacto de innovación en la sociedad.
                 </Text>
               </div>
             </div>
-            <Image
-              src={'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689285719/Nosotros_qyv40q.jpg'
-               }
-              className={classes.image}
-            />
+            <div>
+              <motion.div
+                initial={false}
+                whileHover={{ scale: 1.1 }}
+                transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                onHoverStart={(e) => {}}
+                onHoverEnd={(e) => {}}
+              >
+                <Image
+                  src={
+                    'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689285719/Nosotros_qyv40q.jpg'
+                  }
+                  className={classes.image}
+                  style={{
+                    border: '2px solid #eba900',
+                  }}
+                />
+              </motion.div>
+            </div>
           </div>
         </div>
         <Values />

@@ -12,6 +12,7 @@ import {
   Flex,
 } from '@mantine/core';
 import { IconTruck, IconCertificate, IconCoin } from '@tabler/icons-react';
+import { motion } from 'framer-motion';
 
 const useStyles = createStyles((theme) => ({
   feature: {
@@ -19,7 +20,7 @@ const useStyles = createStyles((theme) => ({
     // paddingTop: theme.spacing.xl,
     // paddingLeft: theme.spacing.xl,
     // backgroundColor: 'blue',
-    backgroundColor: '#ccc4a7',
+    backgroundColor: '#011e41',
     paddingBottom: 50,
   },
 
@@ -33,10 +34,10 @@ const useStyles = createStyles((theme) => ({
   },
 
   title: {
-    color: '#011e41',
+    color: '#eba900',
   },
   subtitle: {
-    color: 'black',
+    color: 'white',
   },
 }));
 
@@ -57,11 +58,26 @@ function Feature({ icon: Icon, title, description, url, className, ...others }: 
         justify="center"
         align="center"
         direction="column"
-        wrap="wrap"
-        style={{ backgroundColor: '#ccc4a7' }}
+        style={{ backgroundColor: '#011e41' }}
       >
-        <Image src={url} width={100} height={100}></Image>
-        <Text fw={700} fz="lg" mb="xs" mt={5} className={classes.subtitle}>
+        <motion.div
+          initial={false}
+          whileHover={{ scale: 1.2 }}
+          transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+          onHoverStart={(e) => {}}
+          onHoverEnd={(e) => {}}
+        >
+          <Image src={url} width={100} height={100}></Image>
+        </motion.div>
+
+        <Text
+          fw={500}
+          fz="lg"
+          className={classes.subtitle}
+          style={{
+            fontSize: 16,
+          }}
+        >
           {title}
         </Text>
       </Flex>
@@ -121,18 +137,18 @@ export function Values() {
   const { classes } = useStyles();
 
   return (
-    <Container mt={75} size="xl" bg="#ccc4a7">
+    <Container mt={75} size="xl" bg="#011e41">
       <Group position="center" mb={30}>
-        <Title className={classes.title} align="center">
-          Nuestros Valores
-        </Title>
-        <Text fw={500} fz="lg" mb={5} align="justify">
+        <Group position="center" pb={15}>
+          <Title className="titleUnderLine"> Nuestros Valores</Title>
+        </Group>
+        <Text fw={500} fz="lg" mb={5} align="justify" c="#ffffff">
           Nos esforzamos por asegurar que nuestros estudiantes reciban una educación de alto nivel y
           estén preparados para los desafíos profesionales.
         </Text>
       </Group>
       <div>
-        <SimpleGrid cols={4} breakpoints={[{ maxWidth: 'sm', cols: 3 }]} bg="#ccc4a7">
+        <SimpleGrid cols={4} breakpoints={[{ maxWidth: 'sm', cols: 3 }]} bg="#011e41">
           {items}
         </SimpleGrid>
       </div>

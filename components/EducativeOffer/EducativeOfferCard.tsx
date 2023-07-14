@@ -247,8 +247,9 @@ export function EducativeOfferCard() {
             // e.preventDefault();
             // e.stopPropagation();
             // handleClick(article.link);
-            handleClick('https://api.whatsapp.com/send/?phone=4491127528&text&type=phone_number&app_absent=0');
-
+            handleClick(
+              'https://api.whatsapp.com/send/?phone=4491127528&text&type=phone_number&app_absent=0'
+            );
           }}
         >
           <Text c="#ffffff">Conocer más</Text>
@@ -262,13 +263,16 @@ export function EducativeOfferCard() {
       <div className={classes.bgW}>{/* <Image src={line.src} bg="#ccc4a7"></Image> */}</div>
       <div style={{ paddingLeft: 40, paddingRight: 40 }}>
         <Group position="center" p="xl">
-          <Title
+          {/* <Title
             className={classes.title}
             align="center"
             style={{ paddingTop: 50, paddingBottom: 50 }}
           >
             Oferta Educativa
-          </Title>
+          </Title> */}
+          <div style={{ paddingTop: 50, paddingBottom: 50 }}>
+            <Title className="titleUnderLine"> Oferta Educativa</Title>
+          </div>
         </Group>
         <SimpleGrid cols={4} breakpoints={[{ maxWidth: 'sm', cols: 1 }]} pb={100}>
           {cards}

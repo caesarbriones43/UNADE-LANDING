@@ -25,7 +25,7 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
       </Head>
 
       
-      <script src="https://use.typekit.net/foobar.js"></script>
+      {/* <script src="https://use.typekit.net/foobar.js"></script> */}
 
 
 

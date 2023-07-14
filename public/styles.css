@@ -11,6 +11,23 @@
   /* max-height: 100vh; */
 }
 
+
+.titleUnderLine {
+  display: inline;
+  color: white;
+  border-bottom: 3px solid #eba900;
+  
+}
+
+.titleUnderLineInverse {
+  display: inline;
+  color: #eba900;
+  border-top: 3px solid white;
+}
+
+
+
+
 .number-slide1 {
   /* background: rgb(64, 175, 255);
   background: linear-gradient(

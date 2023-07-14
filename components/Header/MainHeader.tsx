@@ -276,7 +276,7 @@ export function MainHeader() {
                 <Group className={classes.hiddenMobile} style={{ paddingRight: 20 }}>
                   <Button className={classes.registerButton} color="#011e41">
                     <Text
-                      c="#eba900"
+                      color='#ffffff'
                       onClick={(e: any) => {
                         e.preventDefault();
                         e.stopPropagation();
