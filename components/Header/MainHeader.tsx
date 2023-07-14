@@ -246,7 +246,17 @@ export function MainHeader() {
                 <Group sx={{ height: '100%' }} spacing={0} className={classes.hiddenMobile}>
                   <a href="/" className={classes.link}>
                     Nosotros
-                  </a>
+                  </a> 
+                  <a
+                  onClick={(e: any) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    handleClick('https://aula.unade.com.mx/');
+                  }}
+                  className={classes.link}
+                >
+                  Campus Virtual
+                </a>
                   <HoverCard width={600} position="bottom" radius="md" shadow="md" withinPortal>
                     <HoverCard.Target>
                       <a href="#" className={classes.link}>
@@ -329,7 +339,7 @@ export function MainHeader() {
                   onClick={(e: any) => {
                     e.preventDefault();
                     e.stopPropagation();
-                    handleClick('https://campus.iinternacional.edu.mx/moodle30/');
+                    handleClick('https://aula.unade.com.mx/');
                   }}
                   className={classes.link}
                 >
