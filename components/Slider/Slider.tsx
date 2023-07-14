@@ -130,7 +130,7 @@ const data = [
   {
     image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286167/Carrusel3_ozm0wt.jpg',
     category: 'Fortalece tu liderazgo, impulsa éxito.',
-    title: 'Doctorado en Dirección e Innovación Digital en los Sistemas de Salud',
+    title: 'Maestría en Administración de Enfermería',
   },
   {
     image: 'https://res.cloudinary.com/dslc2vjcz/image/upload/v1689286165/Carrusel2_edsmk8.jpg',
