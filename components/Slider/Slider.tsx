@@ -107,7 +107,7 @@ function Card({ image, title, category }: CardProps) {
           onClick={(e: any) => {
             e.preventDefault();
             e.stopPropagation();
-            handleClick('https://api.whatsapp.com/send/?phone=4491127528&text&type=phone_number&app_absent=0');
+            handleClick('https://inscripciones.unade.com.mx/');
           }}
         >
         <Center>

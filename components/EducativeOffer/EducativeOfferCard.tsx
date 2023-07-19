@@ -28,7 +28,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231731',
     rvoes: 'RVOE SEP SEP: 20231731',
     title: 'Licenciatura en Ingeniería Industrial y Logística',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Lic.+en+Pedagogi%CC%81a.pdf',
+    link: 'https://drive.google.com/file/d/1xu-2jB3zbgVTZ995vAZL0faTDeRxoIIt/view?usp=sharing',
   },
   {
     image:
@@ -36,7 +36,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231732',
     title: 'Licenciatura en Ingeniería en Ciencia de Datos e Inteligencia Artificial',
     rvoes: 'RVOE SEP SEP: 20231732',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Mtria.+en+Estadi%CC%81stica+para+ciencias+sociales.pdf',
+    link: 'https://drive.google.com/file/d/1aVIjgfTZ_eQvjaxsXSujAgKPgiRKSMGI/view?usp=sharing',
   },
   {
     image:
@@ -44,7 +44,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231733',
     rvoes: 'RVOE SEP SEP: 20231733',
     title: 'Licenciatura en Mercadotecnia Digital',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Mtria.+en+Competencias+docentes+para+la+transformacio%CC%81n+digital.pdf',
+    link: 'https://drive.google.com/file/d/1JV4ZPcD9iLIJTpQN7_e7YJ6T2qlCVN4P/view?usp=sharing',
   },
   {
     image:
@@ -52,7 +52,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231734',
     rvoes: 'RVOE SEP SEP: 20231734',
     title: 'Licenciatura en Administración y Dirección de Empresas',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Mtria.+en+Direccio%CC%81n+e+innovacio%CC%81n+en+los+sistemas+de+salud.pdf',
+    link: 'https://drive.google.com/file/d/1jUJe61-Id6mmogBuX0CGIece2JfkPSiN/view?usp=drive_link',
   },
   {
     image:
@@ -60,7 +60,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231735',
     rvoes: 'RVOE SEP SEP: 20231735',
     title: 'Licenciatura en Derecho',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Doc.+en+Direccio%CC%81n+e+innovacio%CC%81n+digital+en+los+sistemas+de+salud.pdf',
+    link: 'https://drive.google.com/file/d/1XhrEGY9op9G4o1JqExqehCPWIIhCdU9N/view?usp=sharing',
   },
   {
     image:
@@ -68,7 +68,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231736',
     rvoes: 'RVOE SEP SEP: 20231736',
     title: 'Licenciatura en Ciencias de la Educación',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Doc.+en+Competencias+docentes+para+la+transformacio%CC%81n+digital.pdf',
+    link: 'https://drive.google.com/file/d/1Z_fEXmtBFUKjRiNvF97yN0LNhgrbcPUM/view?usp=drive_link',
   },
   {
     image:
@@ -76,7 +76,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231737',
     rvoes: 'RVOE SEP SEP: 20231737',
     title: 'Doctorado en Educación, Altas Capacidades y Tecnologías Disruptivas',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Doc.+en+Tecnologi%CC%81as+de+la+transformacio%CC%81n+digital.pdf',
+    link: 'https://drive.google.com/file/d/1a_Nru0QFV10YH5Yze8JGrj6THUa6F7cL/view?usp=sharing',
   },
   {
     image:
@@ -84,7 +84,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231738',
     rvoes: 'RVOE SEP SEP: 20231738',
     title: 'Maestría en Innovación Educativa y Altas Capacidades',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Doc.+en+Derecho.pdf',
+    link: 'https://drive.google.com/file/d/1j25j_wtBjo1D8kv_c0pppGBx5ss0bg49/view?usp=sharing',
   },
   {
     image:
@@ -92,7 +92,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231739',
     rvoes: 'RVOE SEP SEP: 20231739',
     title: 'Maestría en Negocios Digitales e Innovación',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Especialidad+en++Bioe%CC%81tica.pdf',
+    link: 'https://drive.google.com/file/d/1Tm1DWubblw765O4JNnFIqyZrjiRPquZN/view?usp=sharing',
   },
   {
     image:
@@ -100,7 +100,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231740',
     rvoes: 'RVOE SEP SEP: 20231740',
     title: 'Maestría en Dirección y Administración de Empresas',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Especialidad+en++Bioe%CC%81tica.pdf',
+    link: 'https://drive.google.com/file/d/1BcKz6zWIrRsBRMR09yqzAL7gU1V7RN_w/view?usp=drive_link',
   },
   {
     image:
@@ -108,7 +108,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231741',
     rvoes: 'RVOE SEP SEP: 20231741',
     title: 'Maestría en Calidad y Logística',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Especialidad+en++Bioe%CC%81tica.pdf',
+    link: 'https://drive.google.com/file/d/1-UFLWmue2eT_49SNFxgMXpGDZjOHbmSQ/view?usp=sharing',
   },
   {
     image:
@@ -116,7 +116,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231742',
     rvoes: 'RVOE SEP SEP: 20231742',
     title: 'Maestría en Administración de Enfermería',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Especialidad+en++Bioe%CC%81tica.pdf',
+    link: 'https://drive.google.com/file/d/1xlDeHCA1oHyvgzRdLzDQDRd7F2qZB8kE/view?usp=sharing',
   },
   {
     image:
@@ -124,7 +124,7 @@ const mockdata = [
     date: 'RVOE SEP: 20231743',
     rvoes: 'RVOE SEP SEP: 20231743',
     title: 'Maestría en Ética y Derechos Humanos',
-    link: 'https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto.+Especialidad+en++Bioe%CC%81tica.pdf',
+    link: 'https://drive.google.com/file/d/1UdDd9sKNWJ-nVW7k3MZdGJA8GnwZKu50/view',
   },
 ];
 
@@ -246,10 +246,10 @@ export function EducativeOfferCard() {
           onClick={(e: any) => {
             // e.preventDefault();
             // e.stopPropagation();
-            // handleClick(article.link);
-            handleClick(
-              'https://api.whatsapp.com/send/?phone=4491127528&text&type=phone_number&app_absent=0'
-            );
+            handleClick(article.link);
+            // handleClick(
+            //   'https://api.whatsapp.com/send/?phone=4491127528&text&type=phone_number&app_absent=0'
+            // );
           }}
         >
           <Text c="#ffffff">Conocer más</Text>
